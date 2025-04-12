@@ -12,6 +12,7 @@ import Contact from "@/components/contact"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import CodeQuiz from "@/components/code-quiz"
+import AIAssistant from "@/components/ai-assistant"
 import { ThemeProvider } from "@/components/theme-provider"
 import ParticlesBackground from "@/components/particles-background"
 
@@ -46,6 +47,7 @@ export default function Home() {
           <Projects />
           <Learning />
           <CodeQuiz />
+          <AIAssistant />
           <Contact />
         </main>
         <Footer />
