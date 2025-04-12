@@ -51,7 +51,7 @@ export default function Logo({ size = "md", animated = true, variant = "short" }
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.6, type: "spring" }}
           className="absolute text-lg font-bold text-primary-foreground"
-          style={{ left: size === "lg" ? "calc(50% - 20px)" : "calc(50% - 6px)" }}
+          style={{ left: size === "lg" ? "calc(50% - 10px)" : "calc(50% - 10px)" }}
         >
           U
         </motion.div>
@@ -62,7 +62,7 @@ export default function Logo({ size = "md", animated = true, variant = "short" }
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.6, type: "spring" }}
           className="absolute text-lg font-bold text-primary-foreground"
-          style={{ left: size === "lg" ? "calc(50% + 12px)" : "calc(50% + 0px)" }}
+          style={{ left: size === "lg" ? "calc(50% + 2px)" : "calc(50% + 2px)" }}
         >
           S
         </motion.div>
